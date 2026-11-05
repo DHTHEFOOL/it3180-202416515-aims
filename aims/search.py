@@ -14,4 +14,4 @@ def search_by_title(items, keyword):
 
     items: danh sách DigitalVideoDisc; keyword: chuỗi cần tìm.
     """
-    return [dvd for dvd in items if keyword in dvd.title]
+    return [dvd for dvd in items if keyword.lower() in dvd.title.lower()]
