@@ -16,6 +16,9 @@ Bản phát hành Lab 05 (`release/lab05`).
 - `aims.search.search_by_category()` tìm đĩa theo thể loại
 - CI với GitHub Actions: chạy test cho mọi PR vào `master` và `release/**`
 
+### Fixed
+- `search_by_title()` không phân biệt hoa thường (#24)
+
 ## [1.0.0] - 2026-11-06
 
 Phiên bản ổn định đầu tiên (Lab 04).
