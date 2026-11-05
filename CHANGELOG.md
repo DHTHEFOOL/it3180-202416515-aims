@@ -9,6 +9,7 @@ Mọi thay đổi đáng chú ý của AIMS-mini được ghi lại trong tệp 
 
 ### Added
 - `Cart.sort_by_title()` và `Cart.sort_by_cost()` sắp xếp giỏ hàng
+- `aims.search.search_by_category()` tìm đĩa theo thể loại
 
 ## [1.0.0] - 2026-11-06
 
