@@ -7,6 +7,13 @@ Mọi thay đổi đáng chú ý của AIMS-mini được ghi lại trong tệp 
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-06
+
+Bản vá cho dòng 1.0.x (`release/lab04`).
+
+### Fixed
+- `search_by_title()` không phân biệt hoa thường: tìm "lion" ra "The Lion King" (#24)
+
 ## [1.0.0] - 2026-11-06
 
 Phiên bản ổn định đầu tiên (Lab 04).
@@ -55,7 +62,8 @@ Bản nộp Lab 01 (`release/lab01`).
 ### Changed
 - Chuyển mã nguồn vào package `aims/` (#1)
 
-[Unreleased]: https://github.com/DHTHEFOOL/it3180-202416515-aims/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/DHTHEFOOL/it3180-202416515-aims/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/DHTHEFOOL/it3180-202416515-aims/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/DHTHEFOOL/it3180-202416515-aims/compare/v0.3.0...v1.0.0
 [0.3.0]: https://github.com/DHTHEFOOL/it3180-202416515-aims/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/DHTHEFOOL/it3180-202416515-aims/compare/v0.1.0...v0.2.0
